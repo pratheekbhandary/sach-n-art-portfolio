@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { Col, Row } from "antd";
 
 export const FooterSection = styled("footer")`
   background: rgb(241, 242, 243);
@@ -46,7 +47,6 @@ export const LogoContainer = styled("div")`
 export const Para = styled("div")`
   color: #18216d;
   font-size: 14px;
-  width: 70%;
 `;
 
 export const Large = styled(Link)<any>`
@@ -68,13 +68,22 @@ export const Large = styled(Link)<any>`
   }
 `;
 
-export const Chat = styled("p")`
+export const FooterContainerRow = styled(Row)`
+  justify-content: space-between;
+  flex-grow: 1;
+
+  @media screen and (max-width: 700px) {
+    justify-content: space-around;
+  }
+`;
+
+export const Chat = styled("span")`
   color: #18216d;
-  max-width: fit-content;
   border-bottom: 1px solid #18216d;
   cursor: pointer;
   margin-top: 1rem;
   transition: all 0.3s ease-in-out;
+  font-size: 1.5rem;
 
   &:hover {
     border-bottom: 1px solid rgb(255, 130, 92);
@@ -87,41 +96,31 @@ export const Empty = styled("div")`
   height: 53px;
 `;
 
-export const FooterContainer = styled("div")`
-  max-width: 510px;
-  width: 100%;
+export const ContactUsContainerCol = styled(Col)`
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
+`;
+
+export const SocialContainer = styled(Col)`
   display: flex;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
-  transition: all 0.1s ease-in-out;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+    justify-content: center;
+  }
 
   a {
+    padding: 30px;
+
     &:hover,
     &:active,
     &:focus {
       -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
       transform: scale(1.1);
-    }
-  }
-
-  @media screen and (max-width: 769px) {
-    width: auto;
-
-    a:not(:last-child) {
-      display: none;
-    }
-  }
-
-  div {
-    cursor: pointer;
-    margin-right: 15px;
-    width: 25px;
-    height: 25px;
-
-    &:hover {
-      fill: rgb(255, 130, 92);
     }
   }
 `;

@@ -1,9 +1,13 @@
 import { useState, useEffect } from "react";
 import { notification } from "antd";
-import axios from "axios";
+import emailjs from "@emailjs/browser";
 
 export const useForm = (validate: any) => {
-  const [values, setValues] = useState({});
+  const [values, setValues] = useState<{
+    name?: string;
+    email?: string;
+    message?: string;
+  }>({});
   const [errors, setErrors] = useState({});
   const [shouldSubmit, setShouldSubmit] = useState(false);
 
@@ -14,16 +18,26 @@ export const useForm = (validate: any) => {
     });
   };
 
+  const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+  const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
+  const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
+
   const handleSubmit = (event: React.ChangeEvent<HTMLFormElement>) => {
     event.preventDefault();
     setErrors(validate(values));
-    // Your url for API
-    const url = "";
     if (Object.keys(values).length === 3) {
-      axios
-        .post(url, {
-          ...values,
-        })
+      const { name, email, message } = values;
+      emailjs
+        .send(
+          SERVICE_ID!,
+          TEMPLATE_ID!,
+          {
+            name,
+            email,
+            message,
+          },
+          PUBLIC_KEY!
+        )
         .then(() => {
           setShouldSubmit(true);
         });
@@ -32,7 +46,7 @@ export const useForm = (validate: any) => {
 
   useEffect(() => {
     if (Object.keys(errors).length === 0 && shouldSubmit) {
-      setValues("");
+      setValues({});
       openNotificationWithIcon();
     }
   }, [errors, shouldSubmit]);

@@ -1,0 +1,86 @@
+{
+  "portfolio": "Sach'n Art",
+  "projects": [
+    {
+      "thumbnail": "https://res.cloudinary.com/sachnart/image/upload/v1653225604/portfolio/finding_sherif/a22_gt0w9p.jpg",
+      "name": "Finding sherif",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel ante nec nulla facilisis accumsan vel eu est. Nulla pellentesque justo vel fermentum tincidunt. Sed quis quam vel tortor lacinia luctus et sed risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque aliquam augue eu erat tincidunt, nec sodales erat varius. Suspendisse ut purus mi. Pellentesque vestibulum commodo orci, vel accumsan urna pharetra a. Sed varius laoreet imperdiet. Praesent sagittis sem a ultricies ornare.Maecenas dignissim, eros quis molestie efficitur, nulla sapien commodo sem, at tempus nunc nisi ut libero. Integer porta ultricies pellentesque. Nunc luctus laoreet quam in consequat. Praesent fringilla arcu vitae leo dictum malesuada. Maecenas laoreet nisi vitae velit laoreet, in feugiat lectus scelerisque. In nec purus mi. Donec ac ultrices massa. Suspendisse vestibulum lobortis ipsum, nec pretium felis scelerisque et. Vestibulum eu vehicula nulla. Vestibulum lobortis sagittis risus in pretium. Sed elementum malesuada magna sed imperdiet.",
+      "pdfLink": "",
+      "wallpaper": "https://res.cloudinary.com/sachnart/image/upload/v1653225604/portfolio/finding_sherif/a22_gt0w9p.jpg",
+      "type": "Character",
+      "allArtworks": [
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225604/portfolio/finding_sherif/a22_gt0w9p.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225602/portfolio/finding_sherif/a21_irgiam.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225602/portfolio/finding_sherif/a23_iehxpl.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225596/portfolio/finding_sherif/a24_xay7ov.jpg"
+      ]
+    },
+    {
+      "thumbnail": "https://res.cloudinary.com/sachnart/image/upload/v1653225597/portfolio/cursed_lovers/a15_hbtomy.jpg",
+      "name": "Cursed Lovers",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel ante nec nulla facilisis accumsan vel eu est. Nulla pellentesque justo vel fermentum tincidunt. Sed quis quam vel tortor lacinia luctus et sed risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque aliquam augue eu erat tincidunt, nec sodales erat varius. Suspendisse ut purus mi. Pellentesque vestibulum commodo orci, vel accumsan urna pharetra a. Sed varius laoreet imperdiet. Praesent sagittis sem a ultricies ornare.Maecenas dignissim, eros quis molestie efficitur, nulla sapien commodo sem, at tempus nunc nisi ut libero. Integer porta ultricies pellentesque. Nunc luctus laoreet quam in consequat. Praesent fringilla arcu vitae leo dictum malesuada. Maecenas laoreet nisi vitae velit laoreet, in feugiat lectus scelerisque. In nec purus mi. Donec ac ultrices massa. Suspendisse vestibulum lobortis ipsum, nec pretium felis scelerisque et. Vestibulum eu vehicula nulla. Vestibulum lobortis sagittis risus in pretium. Sed elementum malesuada magna sed imperdiet.",
+      "pdfLink": "",
+      "wallpaper": "https://res.cloudinary.com/sachnart/image/upload/v1653225616/portfolio/cursed_lovers/a10_ggveqz.jpg",
+      "type": "Character",
+      "allArtworks": [
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225616/portfolio/cursed_lovers/a10_ggveqz.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225608/portfolio/cursed_lovers/a14_ht5zwe.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225602/portfolio/cursed_lovers/a11_ulvknw.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225601/portfolio/cursed_lovers/a12_yjqrui.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225600/portfolio/cursed_lovers/a16_p6h4pp.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225598/portfolio/cursed_lovers/a13_y7bryz.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225597/portfolio/cursed_lovers/a15_hbtomy.jpg"
+      ]
+    },
+    {
+      "thumbnail": "https://res.cloudinary.com/sachnart/image/upload/v1653225597/portfolio/cursed_lovers/a15_hbtomy.jpg",
+      "name": "Manata Tribe",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel ante nec nulla facilisis accumsan vel eu est. Nulla pellentesque justo vel fermentum tincidunt. Sed quis quam vel tortor lacinia luctus et sed risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque aliquam augue eu erat tincidunt, nec sodales erat varius. Suspendisse ut purus mi. Pellentesque vestibulum commodo orci, vel accumsan urna pharetra a. Sed varius laoreet imperdiet. Praesent sagittis sem a ultricies ornare.Maecenas dignissim, eros quis molestie efficitur, nulla sapien commodo sem, at tempus nunc nisi ut libero. Integer porta ultricies pellentesque. Nunc luctus laoreet quam in consequat. Praesent fringilla arcu vitae leo dictum malesuada. Maecenas laoreet nisi vitae velit laoreet, in feugiat lectus scelerisque. In nec purus mi. Donec ac ultrices massa. Suspendisse vestibulum lobortis ipsum, nec pretium felis scelerisque et. Vestibulum eu vehicula nulla. Vestibulum lobortis sagittis risus in pretium. Sed elementum malesuada magna sed imperdiet.",
+      "pdfLink": "",
+      "wallpaper": "https://res.cloudinary.com/sachnart/image/upload/v1653225607/portfolio/manta_tribe/a26_z1r9as.jpg",
+      "type": "Illustration",
+      "allArtworks": [
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225607/portfolio/manta_tribe/a26_z1r9as.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225606/portfolio/manta_tribe/a28_tgjeti.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225605/portfolio/manta_tribe/a27_x0s3as.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225605/portfolio/manta_tribe/a25_ygilhl.jpg"
+      ]
+    },
+    {
+      "thumbnail": "https://res.cloudinary.com/sachnart/image/upload/v1653225614/portfolio/swat_kats/a8_yoijya.jpg",
+      "name": "Swat Kats",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel ante nec nulla facilisis accumsan vel eu est. Nulla pellentesque justo vel fermentum tincidunt. Sed quis quam vel tortor lacinia luctus et sed risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque aliquam augue eu erat tincidunt, nec sodales erat varius. Suspendisse ut purus mi. Pellentesque vestibulum commodo orci, vel accumsan urna pharetra a. Sed varius laoreet imperdiet. Praesent sagittis sem a ultricies ornare.Maecenas dignissim, eros quis molestie efficitur, nulla sapien commodo sem, at tempus nunc nisi ut libero. Integer porta ultricies pellentesque. Nunc luctus laoreet quam in consequat. Praesent fringilla arcu vitae leo dictum malesuada. Maecenas laoreet nisi vitae velit laoreet, in feugiat lectus scelerisque. In nec purus mi. Donec ac ultrices massa. Suspendisse vestibulum lobortis ipsum, nec pretium felis scelerisque et. Vestibulum eu vehicula nulla. Vestibulum lobortis sagittis risus in pretium. Sed elementum malesuada magna sed imperdiet.",
+      "pdfLink": "",
+      "wallpaper": "https://res.cloudinary.com/sachnart/image/upload/v1653225614/portfolio/swat_kats/a8_yoijya.jpg",
+      "type": "Environment",
+      "allArtworks": [
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225614/portfolio/swat_kats/a8_yoijya.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225611/portfolio/swat_kats/a9_s3ried.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225609/portfolio/swat_kats/a4_iczd0x.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225609/portfolio/swat_kats/a3_mimhoi.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225607/portfolio/swat_kats/a7_qawfac.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225607/portfolio/swat_kats/a6_qwj1xz.jpg"
+      ]
+    },
+    {
+      "thumbnail": "https://res.cloudinary.com/sachnart/image/upload/v1653225618/portfolio/the_survivals/a19_cqkcfo.jpg",
+      "name": "Swat Kats",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel ante nec nulla facilisis accumsan vel eu est. Nulla pellentesque justo vel fermentum tincidunt. Sed quis quam vel tortor lacinia luctus et sed risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque aliquam augue eu erat tincidunt, nec sodales erat varius. Suspendisse ut purus mi. Pellentesque vestibulum commodo orci, vel accumsan urna pharetra a. Sed varius laoreet imperdiet. Praesent sagittis sem a ultricies ornare.Maecenas dignissim, eros quis molestie efficitur, nulla sapien commodo sem, at tempus nunc nisi ut libero. Integer porta ultricies pellentesque. Nunc luctus laoreet quam in consequat. Praesent fringilla arcu vitae leo dictum malesuada. Maecenas laoreet nisi vitae velit laoreet, in feugiat lectus scelerisque. In nec purus mi. Donec ac ultrices massa. Suspendisse vestibulum lobortis ipsum, nec pretium felis scelerisque et. Vestibulum eu vehicula nulla. Vestibulum lobortis sagittis risus in pretium. Sed elementum malesuada magna sed imperdiet.",
+      "pdfLink": "",
+      "wallpaper": "https://res.cloudinary.com/sachnart/image/upload/v1653225618/portfolio/the_survivals/a19_cqkcfo.jpg",
+      "type": "Illustration",
+      "allArtworks": [
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225618/portfolio/the_survivals/a19_cqkcfo.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225615/portfolio/the_survivals/a17_xhnrtv.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225613/portfolio/the_survivals/a18_bp556z.jpg",
+        "https://res.cloudinary.com/sachnart/image/upload/v1653225613/portfolio/the_survivals/a18_bp556z.jpg"
+      ]
+    }
+  ],
+  "socialMediaHandles": {
+    "github": "",
+    "twitter": "",
+    "linkedin": "",
+    "medium": ""
+  }
+}

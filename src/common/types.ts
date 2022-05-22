@@ -17,6 +17,8 @@ export interface SvgIconProps {
   height: string;
 }
 
+export interface PngIconProps extends SvgIconProps {}
+
 export interface InputProps {
   name: string;
   placeholder: string;

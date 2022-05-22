@@ -19,11 +19,10 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
     const ErrorMessage = errors[type];
     return (
       <Zoom direction="left">
-        <Span erros={errors[type]}>{ErrorMessage}</Span>
+        <Span errors={errors[type]}>{ErrorMessage}</Span>
       </Zoom>
     );
   };
-
   return (
     <ContactContainer id={id}>
       <Row justify="space-between" align="middle">
