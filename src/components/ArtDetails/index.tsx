@@ -19,7 +19,7 @@ export default function HomepageArts() {
       {project.allArtworks.map((item, i) => (
         <Fade>
           <ImageListItem key={i}>
-            <img src={item} srcSet={item} alt={`image ${i}`} loading="lazy" />
+            <img src={item} srcSet={item} alt={`artwork ${i}`} loading="lazy" />
             {/* <ImageListItemBar title={item.name} /> */}
           </ImageListItem>
         </Fade>
