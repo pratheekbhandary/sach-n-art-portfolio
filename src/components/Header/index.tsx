@@ -4,6 +4,8 @@ import { withTranslation } from "react-i18next";
 import Container from "../../common/Container";
 import { PngIcon } from "../../common/PngIcon";
 import { Button } from "../../common/Button";
+import artifactJson from "../../content/artifacts.json";
+
 import {
   HeaderSection,
   LogoContainer,
@@ -38,6 +40,13 @@ const Header = ({ t }: any) => {
     };
     return (
       <>
+        <CustomNavLinkSmall
+          href={artifactJson.resumeLink}
+          download="Sachin_resume"
+          target="_blank"
+        >
+          <Span>Resume</Span>
+        </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
           <Span>{t("About")}</Span>
         </CustomNavLinkSmall>

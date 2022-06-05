@@ -24,7 +24,7 @@ export const LogoSubText = styled.span`
   margin-left: 10px;
 `;
 
-export const NavLink = styled("div")`
+export const NavLink = styled("a")`
   display: inline-block;
   text-align: center;
 `;
