@@ -7,12 +7,14 @@ import { ArtifactsType } from "../../content/artifacts.model";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import { StyledImageListItem } from "./styles";
+import { useMediaQuery } from "@mui/material";
 
 const artifacts = _artifactJson as ArtifactsType;
 
 export default function HomepageArts() {
+  const matches = useMediaQuery("(min-width:600px)");
   return (
-    <ImageList cols={2}>
+    <ImageList cols={matches ? 2 : 1}>
       {artifacts.projects.map((item, index) => (
         <Fade>
           <Link to={`/arts/${index}`}>
