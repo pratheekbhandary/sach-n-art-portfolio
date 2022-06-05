@@ -102,8 +102,11 @@ export const ContactUsContainerCol = styled(Col)`
   }
 `;
 
-export const SocialContainer = styled(Col)`
+export const SocialContainer = styled(Col)<{
+  $orientation: "row" | "column";
+}>`
   display: flex;
+  flex-direction: ${({ $orientation }) => $orientation};
   flex-wrap: nowrap;
   justify-content: flex-end;
 

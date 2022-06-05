@@ -11,6 +11,20 @@ export const HeaderSection = styled("header")`
   }
 `;
 
+export const VerticalFixedContainer = styled.div`
+  position: fixed;
+  margin-left: -100px;
+  margin-top: 80px;
+
+  @media only screen and (max-width: 1300px) {
+    margin-left: -75px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    display: none;
+  }
+`;
+
 export const LogoContainer = styled(Link)`
   display: flex;
   flex-direction: column;

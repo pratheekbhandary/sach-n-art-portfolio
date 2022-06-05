@@ -10,9 +10,10 @@ export interface ArtifactsType {
     allArtworks: string[];
   }[];
   socialMediaHandles: {
-    github: string;
+    artstation: string;
     twitter: string;
     linkedin: string;
-    medium: string;
+    facebook: string;
+    instagram: string;
   };
 }

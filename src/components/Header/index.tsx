@@ -17,7 +17,9 @@ import {
   Outline,
   Span,
   LogoSubText,
+  VerticalFixedContainer,
 } from "./styles";
+import SocialMediaHandles from "../Footer/SocialMediaHandles";
 
 const Header = ({ t }: any) => {
   const [visible, setVisibility] = useState(false);
@@ -65,6 +67,9 @@ const Header = ({ t }: any) => {
   return (
     <HeaderSection>
       <Container>
+        <VerticalFixedContainer>
+          <SocialMediaHandles orientation="column" />
+        </VerticalFixedContainer>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
             <PngIcon src="logo-portfolio.png" width="100px" height="64px" />
