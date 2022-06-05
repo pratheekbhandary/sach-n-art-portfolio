@@ -16,4 +16,9 @@ export interface ArtifactsType {
     facebook: string;
     instagram: string;
   };
+  about: {
+    name: string;
+    description: string;
+    profilePic: string;
+  };
 }

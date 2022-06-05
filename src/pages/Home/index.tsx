@@ -1,4 +1,5 @@
 import { lazy } from "react";
+import About from "../../components/About";
 import ContactContent from "../../content/ContactContent.json";
 
 const Contact = lazy(() => import("../../components/ContactForm"));
@@ -11,6 +12,7 @@ const Home = () => {
     <Container>
       <ScrollToTop />
       <HomepageArts />
+      <About />
       <Contact
         title={ContactContent.title}
         content={ContactContent.text}

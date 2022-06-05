@@ -1,6 +1,6 @@
 import { Row, Col } from "antd";
 import { withTranslation } from "react-i18next";
-import { Slide, Zoom } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import { ContactProps, ValidationTypeProps } from "./types";
 import { useForm } from "../../common/utils/useForm";
 import validate from "../../common/utils/validationRules";
@@ -18,21 +18,21 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
   const ValidationType = ({ type }: ValidationTypeProps) => {
     const ErrorMessage = errors[type];
     return (
-      <Zoom direction="left">
+      <Fade direction="left">
         <Span errors={errors[type]}>{ErrorMessage}</Span>
-      </Zoom>
+      </Fade>
     );
   };
   return (
     <ContactContainer id={id}>
       <Row justify="space-between" align="middle">
         <Col lg={12} md={11} sm={24} xs={24}>
-          <Slide direction="left">
+          <Fade direction="left">
             <Block title={title} content={content} />
-          </Slide>
+          </Fade>
         </Col>
         <Col lg={12} md={12} sm={24} xs={24}>
-          <Slide direction="right">
+          <Fade direction="left">
             <FormGroup autoComplete="off" onSubmit={handleSubmit}>
               <Col span={24}>
                 <Input
@@ -67,7 +67,7 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <Button name="submit">{t("Submit")}</Button>
               </ButtonContainer>
             </FormGroup>
-          </Slide>
+          </Fade>
         </Col>
       </Row>
     </ContactContainer>

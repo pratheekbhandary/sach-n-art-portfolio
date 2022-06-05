@@ -20,6 +20,7 @@ import {
   VerticalFixedContainer,
 } from "./styles";
 import SocialMediaHandles from "../Footer/SocialMediaHandles";
+import { useHistory } from "react-router-dom";
 
 const Header = ({ t }: any) => {
   const [visible, setVisibility] = useState(false);
@@ -33,7 +34,10 @@ const Header = ({ t }: any) => {
   };
 
   const MenuItem = () => {
+    const history = useHistory();
+
     const scrollTo = (id: string) => {
+      history.push(`/`);
       const element = document.getElementById(id) as HTMLDivElement;
       element.scrollIntoView({
         behavior: "smooth",
@@ -65,7 +69,7 @@ const Header = ({ t }: any) => {
   };
 
   return (
-    <HeaderSection>
+    <HeaderSection id="intro">
       <Container>
         <VerticalFixedContainer>
           <SocialMediaHandles orientation="column" />
