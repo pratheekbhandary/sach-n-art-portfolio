@@ -14,6 +14,7 @@ import {
   Label,
   Outline,
   Span,
+  LogoSubText,
 } from "./styles";
 
 const Header = ({ t }: any) => {
@@ -58,6 +59,7 @@ const Header = ({ t }: any) => {
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
             <PngIcon src="logo-portfolio.png" width="100px" height="64px" />
+            <LogoSubText>Visual development</LogoSubText>
           </LogoContainer>
           <NotHidden>
             <MenuItem />
