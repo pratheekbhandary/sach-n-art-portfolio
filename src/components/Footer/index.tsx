@@ -10,11 +10,13 @@ import {
   FooterContainerRow,
 } from "./styles";
 
-import _artifactJson from "../../content/artifacts.json";
-import { ArtifactsType } from "../../content/artifacts.model";
 import SocialMediaHandles from "./SocialMediaHandles";
+import useFetchArifacts from "../../common/utils/useFetchArtifacts";
 
 const Footer = ({ t }: any) => {
+  const { artifacts, loading } = useFetchArifacts();
+  if (loading) return null;
+
   return (
     <>
       <FooterSection>
@@ -25,7 +27,7 @@ const Footer = ({ t }: any) => {
               <Para>
                 {t(`Do you have any question? Feel free to reach out.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
+              <a href={`mailto:${artifacts.email}`}>
                 <Chat>{t(`Let's Chat`)}</Chat>
               </a>
             </ContactUsContainerCol>

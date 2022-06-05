@@ -1,12 +1,12 @@
 import React from "react";
 import MiddleBlock from "../MiddleBlock";
-import _artifactJson from "../../content/artifacts.json";
-import { ArtifactsType } from "../../content/artifacts.model";
 import { AboutDescription } from "./style";
-
-const artifacts = _artifactJson as ArtifactsType;
+import useFetchArifacts from "../../common/utils/useFetchArtifacts";
 
 const About = () => {
+  const { artifacts, loading } = useFetchArifacts();
+  if (loading) return null;
+
   return (
     <div id="about">
       <MiddleBlock

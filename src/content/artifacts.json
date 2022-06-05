@@ -1,5 +1,6 @@
 {
   "portfolio": "Sach'n Art",
+  "email": "",
   "projects": [
     {
       "thumbnail": "https://res.cloudinary.com/sachnart/image/upload/v1653225604/portfolio/finding_sherif/a22_gt0w9p.jpg",
@@ -85,7 +86,7 @@
     "artstation": ""
   },
   "about": {
-    "name": "Sachin Shiroor Achar",
+    "name": "Sachin",
     "profilePic": "https://media-exp1.licdn.com/dms/image/C5103AQFSBT_1dH2udw/profile-displayphoto-shrink_800_800/0/1559577970898?e=1660176000&v=beta&t=kifIJBGn0yydDINko43s7gS_ErecY2tn1-Cm9velpzU",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel ante nec nulla facilisis accumsan vel eu est. Nulla pellentesque justo vel fermentum tincidunt. Sed quis quam vel tortor lacinia luctus et sed risus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque aliquam augue eu erat tincidunt, nec sodales erat varius. Suspendisse ut purus mi. Pellentesque vestibulum commodo orci, vel accumsan urna pharetra a. Sed varius laoreet imperdiet. Praesent sagittis sem a ultricies ornare.Maecenas dignissim, eros quis molestie efficitur, nulla sapien commodo sem, at tempus nunc nisi ut libero. Integer porta ultricies pellentesque. Nunc luctus laoreet quam in consequat. Praesent fringilla arcu vitae leo dictum malesuada. Maecenas laoreet nisi vitae velit laoreet, in feugiat lectus scelerisque. In nec purus mi. Donec ac ultrices massa. Suspendisse vestibulum lobortis ipsum, nec pretium felis scelerisque et. Vestibulum eu vehicula nulla. Vestibulum lobortis sagittis risus in pretium. Sed elementum malesuada magna sed imperdiet."
   },

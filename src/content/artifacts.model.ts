@@ -21,4 +21,6 @@ export interface ArtifactsType {
     description: string;
     profilePic: string;
   };
+  email: string;
+  resumeLink: string;
 }

@@ -2,16 +2,15 @@ import * as React from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
 
-import _artifactJson from "../../content/artifacts.json";
-import { ArtifactsType } from "../../content/artifacts.model";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import { Pill, PillContainer, StyledImageListItem } from "./styles";
 import { useMediaQuery } from "@mui/material";
-
-const artifacts = _artifactJson as ArtifactsType;
+import useFetchArifacts from "../../common/utils/useFetchArtifacts";
 
 export default function HomepageArts() {
+  const { artifacts, loading } = useFetchArifacts();
+
   const matches = useMediaQuery("(min-width:600px)");
   const uniqueTypes = React.useMemo(
     () => Array.from(new Set(artifacts.projects.map((p) => p.type))),
@@ -27,6 +26,9 @@ export default function HomepageArts() {
         : artifacts.projects.filter((p) => p.type === selectedType),
     [selectedType]
   );
+
+  if (loading) return null;
+
   return (
     <>
       <PillContainer>

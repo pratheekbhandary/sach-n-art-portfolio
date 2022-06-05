@@ -4,7 +4,6 @@ import { withTranslation } from "react-i18next";
 import Container from "../../common/Container";
 import { PngIcon } from "../../common/PngIcon";
 import { Button } from "../../common/Button";
-import artifactJson from "../../content/artifacts.json";
 
 import {
   HeaderSection,
@@ -21,6 +20,7 @@ import {
 } from "./styles";
 import SocialMediaHandles from "../Footer/SocialMediaHandles";
 import { useHistory } from "react-router-dom";
+import useFetchArifacts from "../../common/utils/useFetchArtifacts";
 
 const Header = ({ t }: any) => {
   const [visible, setVisibility] = useState(false);
@@ -35,6 +35,7 @@ const Header = ({ t }: any) => {
 
   const MenuItem = () => {
     const history = useHistory();
+    const { artifacts, loading } = useFetchArifacts();
 
     const scrollTo = (id: string) => {
       history.push(`/`);
@@ -44,10 +45,12 @@ const Header = ({ t }: any) => {
       });
       setVisibility(false);
     };
+    if (loading) return null;
+
     return (
       <>
         <CustomNavLinkSmall
-          href={artifactJson.resumeLink}
+          href={artifacts.resumeLink}
           download="Sachin_resume"
           target="_blank"
         >

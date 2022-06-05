@@ -3,17 +3,17 @@ import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 // import ImageListItemBar from "@mui/material/ImageListItemBar";
 
-import _artifactJson from "../../content/artifacts.json";
-import { ArtifactsType } from "../../content/artifacts.model";
 import { Fade } from "react-awesome-reveal";
 import { useParams } from "react-router-dom";
-
-const artifacts = _artifactJson as ArtifactsType;
+import useFetchArifacts from "../../common/utils/useFetchArtifacts";
 
 export default function HomepageArts() {
   let { slug } = useParams<{ slug: string }>();
+  const { artifacts, loading } = useFetchArifacts();
+
   const project = artifacts.projects[Number(slug)];
 
+  if (loading) return null;
   return (
     <ImageList cols={1}>
       {project.allArtworks.map((item, i) => (

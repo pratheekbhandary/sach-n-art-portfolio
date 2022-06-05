@@ -1,10 +1,7 @@
 import React from "react";
 import { SocialContainer } from "./styles";
-import _artifactJson from "../../content/artifacts.json";
-import { ArtifactsType } from "../../content/artifacts.model";
 import { SvgIcon } from "../../common/SvgIcon";
-
-const artifacts = _artifactJson as ArtifactsType;
+import useFetchArifacts from "../../common/utils/useFetchArtifacts";
 
 interface SocialLinkProps {
   href: string;
@@ -31,6 +28,9 @@ interface ISocialMediaHandlesProps {
 const SocialMediaHandles: React.FC<ISocialMediaHandlesProps> = ({
   orientation = "row",
 }) => {
+  const { artifacts, loading } = useFetchArifacts();
+  if (loading) return null;
+
   return (
     <SocialContainer xs={24} md={12} $orientation={orientation}>
       <SocialLink
