@@ -10,7 +10,7 @@ const useFetchArifacts = () => {
   const [artifactJson, setArtifactJson] = useState<ArtifactsType>(artifacts);
   useEffect(() => {
     fetch(
-      "https://res.cloudinary.com/sachnart/raw/upload/v1654461159/DO%20NOT%20DELETE/artifacts_yehu3g.json"
+      "https://res.cloudinary.com/sachnart/raw/upload/v1654461159/DO%20NOT%20DELETE/artifacts.json"
     )
       .then(async (res) => {
         const resJson = await res.json();
